@@ -1,4 +1,5 @@
 // https://www.mediawiki.org/wiki/Extension:WikiEditor/Toolbar_customization#
+// [[Benutzer:Michael/common.js]]
 // noinspection JSUnresolvedReference
 
 function buildToolbar() {
@@ -31,7 +32,7 @@ function buildToolbar() {
 function buildLangAction(lang) {
   return addCharacterAction(
     '<syntaxhighlight lang="' + lang +'">',
-    '</' + lang + '>',
+    '</syntaxhighlight>',
     lang
   )
 }
